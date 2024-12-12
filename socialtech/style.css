@@ -34,6 +34,12 @@ body {
 #nav-pc a:hover{
     text-decoration: underline;
 }
+#nav-sp {
+    display: none;
+}
+#menu-sp{
+    display: none;
+}
 #main-visual{
     position: relative;
     height: 400px;
@@ -221,7 +227,7 @@ h3{
     top: 0;
     left: 0;
     z-index: 31;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 .vision-box > div > h4{
     color: #2710d5;
@@ -402,6 +408,10 @@ footer{
     top: 350px;
     left: 100px;
     font-size: 16px;
+  }
+  #s2dgs{
+    margin-top: 50px;
+    width: 100%;
   }
   #mission-s2dgs {
     padding: 20px;
